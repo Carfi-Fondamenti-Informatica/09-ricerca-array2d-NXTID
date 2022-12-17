@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void trova(char insieme[10][20],char n[20]){
     bool x=false;
     int posizione;
