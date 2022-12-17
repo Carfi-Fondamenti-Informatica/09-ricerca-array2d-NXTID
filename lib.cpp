@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 void trova(char insieme[10][20],char n[20]){
     bool x=false;
@@ -15,10 +14,10 @@ void trova(char insieme[10][20],char n[20]){
             }
         }
         if(x==true){
-            cout<<posizione+1;
+            std::cout<<posizione+1;
             break;
         }
     }
     if(x==false)
-        cout<<"non presente";
+        std::cout<<"non presente";
 }
