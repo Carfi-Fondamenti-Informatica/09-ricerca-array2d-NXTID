@@ -14,7 +14,7 @@ void trova(char insieme[10][20],char n[20]){
             }
         }
         if(x==true){
-            std::cout<<posizione+1;
+            std::cout<<posizione;
             break;
         }
     }
