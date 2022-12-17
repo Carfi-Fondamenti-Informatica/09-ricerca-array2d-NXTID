@@ -14,7 +14,6 @@ int main() {
             nomi[b][y]=' ';
         }
     }
-
     for(int i=0;i<10;i++){
         cin>>nomi[i];
     }
